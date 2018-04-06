@@ -1,0 +1,82 @@
+root
+{
+	font-size: 16px;
+}
+body
+{
+	margin: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: #817c8e;
+}
+a:hover
+{
+	color: #000000;
+}
+.container
+{
+	margin-left:5%;
+	margin-right:5%;
+	font-size: 2rem;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	background-color: #c9ddda;
+	display: flex;
+}
+.row2
+{
+	margin-left: auto;
+	margin-right: 10px;
+}
+.row1
+{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.row
+{
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
+@media screen and (min-width:507px)
+{
+	#but
+	{
+		display: none;
+	}
+}
+@media screen and (max-width:506px)
+{
+	.container
+{
+	margin-left:0;
+	margin-right:0;
+	display: block;
+	padding-right: 15px;
+	height: 1.5rem;
+	overflow: hidden;
+
+}
+	.add
+	{
+		height:8rem;
+		transition-property: height;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+
+	}
+	#bi
+	{	width: 20px;
+		float: right;
+	}
+	#but
+	{
+		background-color: #c9ddda;
+	}
+	
+}

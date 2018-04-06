@@ -1,0 +1,44 @@
+.root
+{
+	font-size: 16px;
+}
+p
+{
+	font-size: 1.5rem;
+}
+.mod
+{
+	margin-top: 10vh;
+	margin-left: 30vw;
+	color: black;
+	padding-top: 3px;
+	box-shadow:5px 3px 5px 3px #888888;
+	background-color: white;
+	height: 300px;
+	width: 500px;
+}
+
+.bottom
+{
+	float: right;
+}
+.style
+{
+	width: 85px;
+	height: 45px;
+}
+@media screen and (max-width:900px)
+{
+.mod
+{
+	margin-top: 5vh;
+	margin-left: 15vw;
+	height: 300px;
+	width: 50vw;
+}
+.style
+{
+	width: 100px;
+	height: 70px;
+}
+}
